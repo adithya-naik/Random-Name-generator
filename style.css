@@ -1,0 +1,93 @@
+body{
+  /* background-color:#F5F5F5; */
+  background-color:#E0E0E0;
+  margin: 200px 0px 0px 0px;
+}
+.adi-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 30px; */
+}
+  .card{
+    width: 150%;
+    /* height: px; */
+    background-color: rgba(255, 255, 255, 0.211);
+  }
+.card-body{
+  /* width: 300px; */
+  padding: 30px 30px;
+  /* background-color: gainsboro; */
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+button,p{
+  margin-top: 30px;
+}
+
+
+
+
+
+
+/* Footer customized by me */
+
+
+
+.my-footer{
+  /* margin-top: 70px; */
+  margin: 50px;
+  display: flex;
+  flex-wrap:wrap-reverse;
+  justify-content:center;
+  align-items:center;
+
+}
+.part2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 30px;
+   /* margin-left: 40px; */
+  /* float: left; */
+}
+.mr-de-haviland-regular {
+  font-family: "Mr De Haviland", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+.name{
+  font-size: 25px;
+  margin-left: 20px;
+}
+.bor{
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction:column; */
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.626);
+  /* border: none; */
+  border-radius: 10px;
+  padding:0px 4px 4px 0px;
+  /* text-align: center; */
+  margin: 4px;
+}
+
+.logo{
+  width: 25px;
+}
+img{
+  width: 48px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+}
+
+
+a{
+  
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.729);
+}

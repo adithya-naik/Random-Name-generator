@@ -1,4 +1,6 @@
-let random1 = Math.random()*100;
+
+function clicked(){
+   let random1 = Math.random()*100;
 let first = {
     1 : "Jatoth",
     2 : "Dharavath",
@@ -80,5 +82,12 @@ let middle_name = generate(middle,random2)
 // let last_name = generate(last,random3)
 
 // console.log(random1,random2,random3)
-console.log(`The generated Name is : ${first_name} ${middle_name}`)
+// console.log(`The generated Name is : ${first_name} ${middle_name}`)
 // If you want you can use last name also and print it
+
+let nameAns = first_name+" " +middle_name;
+
+
+   var pTag = document.querySelector('.card-text');
+   pTag.innerHTML = nameAns;
+}
